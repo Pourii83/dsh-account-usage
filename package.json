@@ -1,0 +1,56 @@
+{
+  "name": "@local/dsh-account-usage",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Show the DeepSeek account credit as plain text in the status row below the composer.",
+  "license": "MIT",
+  "author": "Pourii",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pourii83/dsh-account-usage.git"
+  },
+  "homepage": "https://github.com/Pourii83/dsh-account-usage#readme",
+  "bugs": {
+    "url": "https://github.com/Pourii83/dsh-account-usage/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "account",
+    "usage",
+    "balance",
+    "composer",
+    "ui-plugin"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.fa.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-settings-account"
+      ]
+    }
+  }
+}

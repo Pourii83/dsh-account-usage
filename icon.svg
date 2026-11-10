@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Account usage reading">
+  <defs>
+    <linearGradient id="au-plate" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2c3a57"/>
+      <stop offset="1" stop-color="#171c2a"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#au-plate)"/>
+  <rect x="14" y="18" width="26" height="6" rx="3" fill="#8fa8cc"/>
+  <rect x="14" y="29" width="36" height="6" rx="3" fill="#f4f7ff"/>
+  <rect x="14" y="40" width="20" height="6" rx="3" fill="#4fc38a"/>
+  <path d="M44 17.5a2.5 2.5 0 0 1 2.5 2.5v3a2.5 2.5 0 0 1-2.5 2.5 2.5 2.5 0 0 1-2.5-2.5v-3a2.5 2.5 0 0 1 2.5-2.5Z" fill="#4a9ef0"/>
+</svg>

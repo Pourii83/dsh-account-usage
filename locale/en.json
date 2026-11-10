@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Account usage reading",
+    "description": "Shows the account credit balance as plain text in the status row below the composer."
+  }
+}
